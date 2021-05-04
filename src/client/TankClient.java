@@ -144,7 +144,7 @@ public class TankClient extends JPanel{
 		setBackground(Color.GRAY);
 		setDoubleBuffered(true);
 		
-		JFrame frame = new JFrame("坦克大战 —— 作者：蔡小溯");
+		JFrame frame = new JFrame("坦克大战 —— 作者：蔡广");
 		frame.setBounds(500, 50, WIDTH, HEIGHT);
 		frame.setLayout(new BorderLayout());
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -226,7 +226,7 @@ public class TankClient extends JPanel{
 				redraw = true;
 				new Thread(new Repaint()).start();
 			} else if(itemText.equals("关于")) {
-				String message = "坦克大战（Java版）\n作者：蔡广帅\n网址：www.sheuni.com";
+				String message = "坦克大战（Java版）\n作者：蔡广\n网址：https://caiguang.cc";
 				JOptionPane.showMessageDialog(TankClient.this,message , "关于游戏", JOptionPane.DEFAULT_OPTION);
 			}
 		}
